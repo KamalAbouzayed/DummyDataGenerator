@@ -70,7 +70,7 @@ class GenerateDummyData extends Command
                             if ($column === 'email') {
                                 $row[$column] = $faker->email;
                             } elseif ($column === 'password') {
-                                $row[$column] = 'password';
+                                $row[$column] = bcrypt('password');
                             } else {
                                 $row[$column] = $faker->word;
                             }
