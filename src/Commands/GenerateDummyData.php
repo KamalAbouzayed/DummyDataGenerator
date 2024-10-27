@@ -69,6 +69,8 @@ class GenerateDummyData extends Command
                         case 'string':
                             if ($column === 'email') {
                                 $row[$column] = $faker->email;
+                            } elseif ($column === 'password') {
+                                $row[$column] = 'password';
                             } else {
                                 $row[$column] = $faker->word;
                             }
