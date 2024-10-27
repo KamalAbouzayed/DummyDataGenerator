@@ -1,0 +1,17 @@
+{
+    "name": "kamal/dummy-data-generator",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Kamal\\DummyDataGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "KamalAbouzayed",
+            "email": "Kamal.Abouzayed@geexar.dev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
